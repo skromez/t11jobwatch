@@ -2,6 +2,8 @@
 
 ## Motivation
 This is an experimental project to use React and TypeScript to develop Tizen Web watch applications.
+What is great with TAU style shhets that it works quite reasonably on mobile devices, too, so with some careful approach the same application can work fine on both Galaxy Watch and any mobile phone.
+The simple pure JS jquery with the TAU CSS could be absolutely a viable alternative, but for moderately more complex mobile applications, a warehousingh solution, for example, React/TypeScript is beneficial.
 
 ## Getting Started
 I created two projects the first with Tizen Studio, the second with [Create React App](https://github.com/facebook/create-react-app) TypeScript. Then I combined the two together.
@@ -26,4 +28,5 @@ Here are the key points:
   - serve -s build
   - Tizen Web: Run Web Simulator
   - http://localhost:5000 in Web Simulator and Ctrl + Shift I to open Dev Tools for debugging
+  - Unfortunately the Web Simulator tends to break, then simply use Google Chrome to debug.
 
